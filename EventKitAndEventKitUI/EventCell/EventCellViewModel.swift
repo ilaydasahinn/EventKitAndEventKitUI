@@ -15,10 +15,10 @@ protocol EventCellViewModelDelegate: AnyObject {
 
 extension EventCellViewModel {
     private enum Constant {
-        static let savedEventTitle = "Kaydedildi"
-        static let savedEventMessage = "Event Başarıyla Kaydedildi!"
-        static let unsavedEventTitle = "Uyarı"
-        static let unsavedEventMessage = "Event Kaydedilemedi!"
+        static let savedEventTitle = "Saved"
+        static let savedEventMessage = "The event was saved successfully!"
+        static let unsavedEventTitle = "Warning"
+        static let unsavedEventMessage = "The event could not be saved!"
         static let actionTitle = "Ok"
     }
 }
